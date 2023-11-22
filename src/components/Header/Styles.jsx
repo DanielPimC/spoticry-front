@@ -42,3 +42,9 @@ export const Button = styled.div`
     background-color: ${COLORS.darkYellow};
   }
 `;
+
+export const GearConfiguration = styled.img`
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+`;

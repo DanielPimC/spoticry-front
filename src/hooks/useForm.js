@@ -8,7 +8,6 @@ import { useState } from "react";
     setForm({ ...form, [name]: value });
   };
 
-
   const cleanFields = () => {
    setForm(initialState)
   }

@@ -18,6 +18,7 @@ export const LoginPage = () => {
         <p>login página</p>
         <button onClick={goHome}>Home</button>
       </LoginForm>
+  
     </LoginContainer>
   );
 };
