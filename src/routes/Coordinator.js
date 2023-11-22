@@ -21,3 +21,7 @@ export const goToCreatePlaylistPage = (navigate) => {
 export const goToDetailsPlaylistPage = (navigate, playlistId) => {
   navigate(`/Playlist/${playlistId}`)
 }
+
+export const goToListMusicsPage = (navigate) => {
+  navigate("/Musics");
+};
